@@ -1,3 +1,4 @@
+# or whatever devcontainer you want, just use javascript because I know it
 FROM mcr.microsoft.com/devcontainers/javascript-node:22 AS base
 ENV DEBIAN_FRONTEND=noninteractive
 WORKDIR /workspace
