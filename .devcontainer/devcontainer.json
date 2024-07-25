@@ -1,6 +1,6 @@
 {
-  "name": "Dive CLI in Devcontainer",
-  "dockerFile": "Dockerfile",
-  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
-  "workspaceFolder": "/workspace"
+    "name": "Dive CLI in Devcontainer",
+    "dockerFile": "Dockerfile",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+    "workspaceFolder": "/workspace"
 }
